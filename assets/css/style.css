@@ -133,16 +133,19 @@ a.nav-link-inner {
 
 a.nav-link-inner:hover {
     color: var(--background)
-    /* এখানে আপনার পছন্দমতো কালার বা ভেরিয়েবল দিন */
 }
 
 .get-quote-button {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 10px;
 }
 
 .button-orange {
     margin-left: 40px;
+}
+
+img.hamb-logo, .drawer {
+    display: none;
 }
