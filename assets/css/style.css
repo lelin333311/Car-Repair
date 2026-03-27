@@ -94,6 +94,8 @@ ul.nav-link {
     transition: all 0.3s ease;
     transform: translateY(10px);
     z-index: 999;
+    line-height: 150%;
+    font-size: 16px;
 }
 
 .nav-item:hover .dropdown-menu {
