@@ -148,6 +148,50 @@ a.nav-link-inner:hover {
     margin-left: 40px;
 }
 
-img.hamb-logo, .drawer {
+img.hamb-logo,
+.drawer {
     display: none;
 }
+
+/* hero section start */
+
+.hero-section {
+    background: #f8f8f8;
+}
+
+.grid-content {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-template-columns: auto 1fr auto; */
+    grid-template-columns: 40% 60%
+}
+
+h1.car-hero-section {
+    font-family: var(--second-family);
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 113%;
+    text-transform: uppercase;
+    color: var(--font-color);
+    max-width: 488px;
+    width: 100%;
+}
+
+p.vehicles-para {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 136%;
+    color: var(--font-color);
+}
+
+.button-service {
+    white-space: nowrap;
+    max-width: 180px !important;
+}
+
+.hero-button {
+    margin-left: 0;
+}
+
+/* hero section end */
